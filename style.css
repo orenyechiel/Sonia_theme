@@ -1,0 +1,77 @@
+/*
+Theme Name: Sonia
+Author: Oren Pesachov
+Description: Community site.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: sonia
+*/
+
+.head {
+    background-image: url(img/view.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 400px;
+}
+nav ul {
+    list-style-type: none;
+}
+nav li {
+    display: inline-block;
+    float: right;
+    margin: 0 14px;
+}
+nav a {
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 20px;
+}
+nav a:hover {
+    text-decoration: none;
+    color: aliceblue;
+    border-top: 2px solid #68d4a7;
+}
+#suggests {
+    color: aliceblue;
+}
+aside h3 {
+    color: #3e7474;
+}
+aside ol {
+    padding-right: 15px;
+}
+aside li {
+    display: inline;
+    color: #12abd0;
+}
+aside a {
+    text-decoration: none;
+    color: cadetblue;
+}
+.memorial {
+    font-family: 'Bellefair', serif;
+    position: fixed;
+    left: 0;
+    bottom: 7%;
+}
+@media screen and (max-width: 768px) {
+    .memorial {
+        font-family: 'Bellefair', serif;
+        position: fixed;
+        right: 0;
+        bottom: 40%;
+    }
+}
+footer {
+    background-color: #201f26;
+}
+.article {
+    border: 1px dashed #6d8ca7;
+}
+.post a {
+    color: #316b6c;
+}
+.post a:hover {
+    text-decoration: none;
+}
